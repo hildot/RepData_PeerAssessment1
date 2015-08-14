@@ -186,4 +186,3 @@ g + geom_line(stat = "identity", binwidth = 1) + facet_wrap(~ wday, nrow = 2)
 ```
 
 There does appear to be a difference in the activity patterns between weekends and weekdays. On weekdays, there is a spike in activity between 7:50am and 10:00am, where the most activity exceeds an average of 250 steps, then a sharp decrease in activity after 10:00am, with intermittent increases throughout the day. On weekends, there are increases and decreases in activity throughout the day, but in no case does mean activity exceed 175 steps on average. The activity throughout the day on weekends appears more constant than on weekdays. 
-knit2html("PA1_template.Rmd")
